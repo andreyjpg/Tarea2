@@ -1,59 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="40dp"
-    tools:context=".MainActivity">
+    android:paddingLeft="30dp"
+    android:paddingTop="60dp"
+    android:paddingRight="30dp"
+    tools:context=".ui.gallery.AddItemFragment">
+
+    <!-- TODO: Update blank fragment layout -->
 
     <TextView
-        android:id="@+id/txt_correo"
+        android:id="@+id/txt_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Correo"
+        android:text="Nombre objeto"
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/input_email"
+        android:id="@+id/input_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
-        android:height="50dp"
         android:ems="10"
-        android:inputType="textEmailAddress"
+        android:inputType="textPersonName"
         android:minHeight="50dp" />
 
     <TextView
-        android:id="@+id/txt_password"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Contraseña"
+        android:text="Cantidad"
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/input_pass"
+        android:id="@+id/input_value"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-        android:height="50dp"
+        android:layout_marginBottom="20dp"
         android:ems="10"
-        android:inputType="numberPassword"
+        android:inputType="number"
         android:minHeight="50dp" />
 
     <Button
-        android:id="@+id/bt_sigin"
+        android:id="@+id/bt_addItemForm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:text="Iniciar Sesión" />
+        android:text="Guardar" />
 
-    <Button
-        android:id="@+id/bt_signon"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Registrarse" />
 </LinearLayout>
