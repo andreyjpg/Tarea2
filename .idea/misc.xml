@@ -4,13 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Tarea2/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Tarea2/app/src/main/res/layout/activity_home2.xml" value="0.22010869565217392" />
         <entry key="..\:/Tarea2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Tarea2/app/src/main/res/layout/app_bar_home.xml" value="0.22010869565217392" />
         <entry key="..\:/Tarea2/app/src/main/res/layout/content_home.xml" value="0.22010869565217392" />
+        <entry key="..\:/Tarea2/app/src/main/res/layout/content_home2.xml" value="0.22010869565217392" />
         <entry key="..\:/Tarea2/app/src/main/res/layout/fragment_add_item.xml" value="0.22010869565217392" />
-        <entry key="..\:/Tarea2/app/src/main/res/layout/fragment_add_item2.xml" value="0.11302083333333333" />
+        <entry key="..\:/Tarea2/app/src/main/res/layout/fragment_add_item2.xml" value="0.176" />
         <entry key="..\:/Tarea2/app/src/main/res/layout/fragment_add_objeto.xml" value="0.22010869565217392" />
         <entry key="..\:/Tarea2/app/src/main/res/layout/fragment_first.xml" value="0.264" />
+        <entry key="..\:/Tarea2/app/src/main/res/layout/fragment_gallery.xml" value="0.22010869565217392" />
+        <entry key="..\:/Tarea2/app/src/main/res/layout/fragment_home.xml" value="0.22010869565217392" />
         <entry key="..\:/Tarea2/app/src/main/res/layout/fragment_second.xml" value="0.22010869565217392" />
+        <entry key="..\:/Tarea2/app/src/main/res/layout/fragment_slideshow.xml" value="0.22010869565217392" />
+        <entry key="..\:/Tarea2/app/src/main/res/layout/nav_header_home.xml" value="0.22010869565217392" />
+        <entry key="..\:/Tarea2/app/src/main/res/menu/activity_main2_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Tarea2/app/src/main/res/menu/home.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

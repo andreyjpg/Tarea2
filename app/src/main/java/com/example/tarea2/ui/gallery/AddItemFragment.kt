@@ -13,7 +13,7 @@ import com.example.tarea2.model.Bodega
 import com.example.tarea2.viewModel.BodegaViewModel
 
 class AddItemFragment : Fragment() {
-    private var _binding: FragmentAddItemBinding? = null
+    private var _binding:FragmentAddItemBinding? = null
     private val binding get() = _binding!!
     private lateinit var bodegaViewModel: BodegaViewModel
 
@@ -30,12 +30,12 @@ class AddItemFragment : Fragment() {
     }
 
     private fun addLugar() {
-        val name = binding.inputName.text.toString()
+        val nombre = binding.inputName.text.toString()
         val value = binding.inputValue.text.toString().toInt()
 
-        if(validation(name)) {
-            val lugar = Bodega(0, name, value)
-            bodegaViewModel.addItem(lugar)
+        if(validation(nombre)) {
+            val item = Bodega(0, nombre, value)
+            bodegaViewModel.addItem(item)
             Toast.makeText(requireContext(), getString(R.string.msg_ItemAdded), Toast.LENGTH_LONG).show()
         } else {
             Toast.makeText(requireContext(), getString(R.string.msg_ItemError), Toast.LENGTH_LONG).show()
